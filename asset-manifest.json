@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.4b500d08.css",
+    "main.js": "/my-portfolio/static/js/main.699703ab.js",
+    "static/js/787.fb771931.chunk.js": "/my-portfolio/static/js/787.fb771931.chunk.js",
+    "static/media/color-sharp2.png": "/my-portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/starwars.png": "/my-portfolio/static/media/starwars.9f9977c64de6d8ec6b64.png",
+    "static/media/store.png": "/my-portfolio/static/media/store.017a8869fb18516682ee.png",
+    "static/media/tryunfo.png": "/my-portfolio/static/media/tryunfo.21fb43c6a6baed904c50.png",
+    "static/media/tunes.png": "/my-portfolio/static/media/tunes.07ad1865405baf33bec7.png",
+    "static/media/solar.png": "/my-portfolio/static/media/solar.867779678591417f5beb.png",
+    "static/media/CentraNo2-Bold.ttf": "/my-portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/my-portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/trivia.png": "/my-portfolio/static/media/trivia.cd0683056de723583a92.png",
+    "static/media/CentraNo2-Book.ttf": "/my-portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/my.jpeg": "/my-portfolio/static/media/my.3c2fc6a16737476e0380.jpeg",
+    "static/media/computer1.jpg": "/my-portfolio/static/media/computer1.827d6378982d5761ee1e.jpg",
+    "static/media/contact-img.svg": "/my-portfolio/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
+    "static/media/revicons.eot": "/my-portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/my-portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/my-portfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/my-portfolio/index.html",
+    "main.4b500d08.css.map": "/my-portfolio/static/css/main.4b500d08.css.map",
+    "main.699703ab.js.map": "/my-portfolio/static/js/main.699703ab.js.map",
+    "787.fb771931.chunk.js.map": "/my-portfolio/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b500d08.css",
+    "static/js/main.699703ab.js"
+  ]
+}
