@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.4b500d08.css",
-    "main.js": "/my-portfolio/static/js/main.699703ab.js",
+    "main.css": "/my-portfolio/static/css/main.0e0b8881.css",
+    "main.js": "/my-portfolio/static/js/main.10271184.js",
     "static/js/787.fb771931.chunk.js": "/my-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/color-sharp2.png": "/my-portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/starwars.png": "/my-portfolio/static/media/starwars.9f9977c64de6d8ec6b64.png",
@@ -20,12 +20,12 @@
     "static/media/revicons.ttf": "/my-portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/my-portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/my-portfolio/index.html",
-    "main.4b500d08.css.map": "/my-portfolio/static/css/main.4b500d08.css.map",
-    "main.699703ab.js.map": "/my-portfolio/static/js/main.699703ab.js.map",
+    "main.0e0b8881.css.map": "/my-portfolio/static/css/main.0e0b8881.css.map",
+    "main.10271184.js.map": "/my-portfolio/static/js/main.10271184.js.map",
     "787.fb771931.chunk.js.map": "/my-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b500d08.css",
-    "static/js/main.699703ab.js"
+    "static/css/main.0e0b8881.css",
+    "static/js/main.10271184.js"
   ]
 }
