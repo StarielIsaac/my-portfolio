@@ -202,21 +202,21 @@ const NavBar = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <FiLinkedin className=" animate-bounce-slow-mt w-7 h-7 text-gray-200 hover:text-blue-500 transition" />
+              <FiLinkedin className="w-7 h-7 text-gray-200 hover:text-blue-500 transition" />
             </a>
             <a
               href="https://github.com/StarielIsaac"
               target="_blank"
               rel="noreferrer"
             >
-              <FiGithub className=" animate-bounce-slow-mt w-7 h-7 text-gray-200 hover:text-slate-400 transition" />
+              <FiGithub className=" w-7 h-7 text-gray-200 hover:text-slate-400 transition" />
             </a>
             <a
               href="https://www.instagram.com/starielisaac/?igshid=ZDdkNTZiNTM%3D"
               target="_blank"
               rel="noreferrer"
             >
-              <FiInstagram className=" animate-bounce-slow-mt w-7 h-7 text-gray-200 hover:text-pink-500 transition" />
+              <FiInstagram className="w-7 h-7 text-gray-200 hover:text-pink-500 transition" />
             </a>
           </div>
         </div>

@@ -1,9 +1,173 @@
+import { ArrowRightCircle } from "react-feather";
+import { Link } from "react-router-dom";
+
 function Skills() {
   return (
-    <div>
-      <h1>Meu Componente About</h1>
-      <p>Este é um componente de exemplo em React.</p>
-    </div>
+    <section className="skills w-full py-16 gradient-bg bg-gradient-to-b via-gray-800 from-slate-700 to-slate-900 text-white">
+      <div className="container mx-auto px-32 text-center">
+        {/* Experiência e Projetos */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-20">
+          <div className="flex flex-col items-center justify-center space-y-2 transform transition-all hover:scale-105">
+            <span className="text-6xl font-extrabold text-emerald-400">+01</span>
+            <p className="text-xl font-light text-gray-100">
+              Ano de Experiência como Desenvolvedor
+            </p>
+          </div>
+          <div className="flex flex-col items-center justify-center space-y-2 transform transition-all hover:scale-105">
+            <span className="text-6xl font-extrabold text-emerald-400">+08</span>
+            <p className="text-xl font-light text-gray-100">
+              Projetos Pessoais e Educativos Concluídos
+            </p>
+          </div>
+          <div className="flex flex-col items-center justify-center space-y-2 transform transition-all hover:scale-105">
+            <span className="text-6xl font-extrabold text-emerald-400">+01</span>
+            <p className="text-xl font-light text-gray-100">
+              Projeto Freelancer Entregue
+            </p>
+          </div>
+          <div className="flex flex-col items-center justify-center space-y-2 transform transition-all hover:scale-105">
+            <span className="text-6xl font-extrabold text-emerald-400">+02</span>
+            <p className="text-xl font-light text-gray-100">
+              Cursos Front-end Concluídos
+            </p>
+          </div>
+        </div>
+
+        {/* Lista de Skills */}
+        {/* <h2 className="text-3xl mb-10">Conhecimento</h2> */}
+        <div>
+          <h2 className="tracking-wider text-3xl font-light text-gray-200 my-14">
+          <span className="text-3xl mr-2">➤</span>
+            Meus Conhecimentos:
+          </h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+            <div className="flex flex-col items-center justify-center space-y-2 hover:bg-slate-600 p-2 rounded-lg transition-colors shadow-md">
+              <img src="../img/html.png" alt="HTML5" className="w-12 h-12" />
+              <span className="text-base font-light text-gray-100">HTML5</span>
+            </div>
+            <div className="flex flex-col items-center justify-center space-y-2 hover:bg-slate-600  p-2 rounded-lg transition-colors shadow-md">
+              <img src="../img/css.png" alt="CSS3" className="w-12 h-12" />
+              <span className="text-base font-light text-gray-100">CSS3</span>
+            </div>
+            <div className="flex flex-col items-center justify-center space-y-2 hover:bg-slate-600  p-2 rounded-lg transition-colors shadow-md">
+              <img src="../img/js.png" alt="JavaScript" className="w-12 h-12" />
+              <span className="text-base font-light text-gray-100">
+                JavaScript
+              </span>
+            </div>
+            <div className="flex flex-col items-center justify-center space-y-2 hover:bg-slate-600  p-2 rounded-lg transition-colors shadow-md">
+              <img
+                src="../img/react.png"
+                alt="React.js"
+                className="w-12 h-12"
+              />
+              <span className="text-base font-light text-gray-100">
+                React.js
+              </span>
+            </div>
+            <div className="flex flex-col items-center justify-center space-y-2 hover:bg-slate-600  p-2 rounded-lg transition-colors shadow-md">
+              <img src="../img/node.png" alt="Node.js" className="w-12 h-12" />
+              <span className="text-base font-light text-gray-100">
+                Node.js
+              </span>
+            </div>
+            <div className="flex flex-col items-center justify-center space-y-2 hover:bg-slate-600  p-2 rounded-lg transition-colors shadow-md">
+              <img
+                src="../img/express.png"
+                alt="Express.js"
+                className="w-12 h-12"
+              />
+              <span className="text-base font-light text-gray-100">
+                Express.js
+              </span>
+            </div>
+            <div className="flex flex-col items-center justify-center space-y-2 hover:bg-slate-600  p-2 rounded-lg transition-colors shadow-md">
+              <img src="../img/docker.png" alt="Docker" className="w-12 h-12" />
+              <span className="text-lg font-light text-gray-100">
+                React Native
+              </span>
+            </div>
+            <div className="flex flex-col items-center justify-center space-y-2 hover:bg-slate-600  p-2 rounded-lg transition-colors shadow-md">
+              <img
+                src="../img/bootstrap.png"
+                alt="Bootstrap"
+                className="w-12 h-12"
+              />
+              <span className="text-lg font-light text-gray-100">
+                Bootstrap
+              </span>
+            </div>
+            <div className="flex flex-col items-center justify-center space-y-2 hover:bg-slate-600  p-2 rounded-lg transition-colors shadow-md">
+              <img
+                src="../img/tailwind.png"
+                alt="Tailwind CSS"
+                className="w-12 h-12"
+              />
+              <span className="text-lg font-light text-gray-100">
+                Tailwind CSS
+              </span>
+            </div>
+            <div className="flex flex-col items-center justify-center space-y-2 hover:bg-slate-600  p-2 rounded-lg transition-colors shadow-md">
+              <img src="../img/git.png" alt="Git" className="w-12 h-12" />
+              <span className="text-lg font-light text-gray-100">Git</span>
+            </div>
+            <div className="flex flex-col items-center justify-center space-y-2 hover:bg-slate-600  p-2 rounded-lg transition-colors shadow-md">
+              <img src="../img/python.png" alt="python" className="w-12 h-12" />
+              <span className="text-lg font-light text-gray-100">Python</span>
+            </div>
+            <div className="flex flex-col items-center justify-center space-y-2 hover:bg-slate-600  p-2 rounded-lg transition-colors shadow-md">
+              <img
+                src="../img/type.png"
+                alt="TypeScript"
+                className="w-12 h-12"
+              />
+              <span className="text-lg font-light text-gray-100">
+                TypeScript
+              </span>
+            </div>
+
+            <div className="flex flex-col items-center justify-center space-y-2 hover:bg-slate-600  p-2 rounded-lg transition-colors shadow-md">
+              <img src="../img/prisma.png" alt="prisma" className="w-12 h-12" />
+              <span className="text-lg font-light text-gray-100">Prisma</span>
+            </div>
+
+            <div className="flex flex-col items-center justify-center space-y-2 hover:bg-slate-600  p-2 rounded-lg transition-colors shadow-md">
+              <img src="../img/csharp.png" alt="C#" className="w-12 h-12" />
+              <span className="text-lg font-light text-gray-100">C#</span>
+            </div>
+
+            <div className="flex flex-col items-center justify-center space-y-2 hover:bg-slate-600  p-2 rounded-lg transition-colors shadow-md">
+              <img src="../img/sql.png" alt="Git" className="w-12 h-12" />
+              <span className="text-lg font-light text-gray-100">MySQL</span>
+            </div>
+            <div className="flex flex-col items-center justify-center space-y-2 hover:bg-slate-600  p-2 rounded-lg transition-colors shadow-md">
+              <img
+                src="../img/material.png"
+                alt="Material UI"
+                className="w-12 h-12"
+              />
+              <span className="text-lg font-light text-gray-100">
+                Material UI
+              </span>
+            </div>
+            {/* Adicione outras habilidades conforme necessário */}
+          </div>
+          <div className="text-center mt-16">
+            <p className="text-xl text-gray-200">
+              Quer ver mais do meu trabalho ou conversar sobre projetos?
+            </p>
+            <Link to="#connect">
+              <button className="animate-bounce-slow-mt mt-6 bg-blue-500 text-white font-semibold py-4 px-6 rounded-lg hover:bg-blue-600">
+                <span className="">
+                  Fale comigo
+                  <ArrowRightCircle size={30} className="inline-block ml-1" />
+                </span>
+              </button>
+            </Link>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }
 

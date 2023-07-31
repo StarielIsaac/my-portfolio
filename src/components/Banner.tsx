@@ -43,7 +43,7 @@ const Banner = () => {
   };
 
   return (
-<section className="banner w-full min-h-screen max-h-screen flex items-center gradient-bg bg-gradient-to-b via-gray-800 from-slate-500 to-slate-900" style={{ maxHeight: "100vh" }}>
+<section className="banner w-full min-h-screen max-h-screen flex items-center gradient-bg bg-gradient-to-b via-gray-800 from-slate-700 to-slate-900" style={{ maxHeight: "100vh" }}>
   <div className="container mx-auto px-10 py-10">
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
       <div>
