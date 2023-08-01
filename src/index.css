@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.my-img {
+  width: 70%;
+}
+
 /* .banner {
   padding-top: -50px; 
 }
+
 
 .navbar {
   margin-top: 0;

@@ -66,13 +66,11 @@ const Banner = () => {
                   <span className="text-base sm:text-lg md:text-xl text-gray-400 block text-center">
                     Bem-vindo ao meu Portfólio
                   </span>
-                  <h1 className="text-sm md:text-base lg:text-2xl xl:text-4xl font-bold text-slate-100 text-center mb-4 md:mb-6 mt-1 md:mt-2">{`Me chamo Stariel, sou ${text}`}</h1>
-                  <p className="text-slate-100 text-xs sm:text-sm md:text-base tracking-wide text-center mb-4">
+                  <h1 className="text-3xl md:text-base lg:text-2xl xl:text-5xl font-bold text-slate-100 text-center mb-4 md:mb-6 mt-1 md:mt-2">{`Me chamo Stariel, sou ${text}`}</h1>
+                  <p className="text-slate-100 text-base sm:text-sm md:text-2xl xl:text-lg tracking-wide text-center mb-4">
                     Sou desenvolvedor Full Stack e tenho paixão por tornar
                     ideias em realidade. Estou aqui para ajudá-lo a criar a
-                    experiência perfeita para o seu projeto!
-                  </p>
-                  <p className="text-slate-100 text-xs sm:text-sm md:text-base tracking-wide text-center mb-6">
+                    experiência perfeita para o seu projeto.
                     Vamos juntos transformar sua ideia em um produto incrível!
                   </p>
                   <Link to="#connect">
@@ -99,7 +97,7 @@ const Banner = () => {
                   }`}
                 >
                   <img
-                    className="w-full md:w-64 lg:w-72 xl:w-96 m-auto rounded-lg shadow-lg animate-bounce-slow"
+                    className=" my-img w-full md:w-64 lg:w-72 xl:w-96 m-auto rounded-lg shadow-lg animate-bounce-slow"
                     src={typecode}
                     alt="Header Img"
                   />
@@ -115,10 +113,3 @@ const Banner = () => {
 
 export default Banner;
 
-{
-  /* <button className="mt-10 text-slate-400 font-medium py-4 px-6 rounded-lg">
-    <span className="">
-      Entre em contato
-    </span>
-  </button> */
-}
