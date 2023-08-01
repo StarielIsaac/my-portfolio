@@ -65,7 +65,7 @@ function Projects() {
         {/* Aqui colocamos o componente Slider dentro do slide */}
         <Slider
           {...settings}
-          className="my-16 border-2 border-black bg-slate-custom-fu bg-opacity-40"
+          className="my-16 border-2 border-black bg-slate-custom-fu bg-opacity-40 rounded-xl"
         >
           {tunes.map((project, index) => (
             <div

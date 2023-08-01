@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 
 function Skills() {
   return (
-    <section className="skills w-full py-16 gradient-bg bg-gradient-to-bl via-gray-800 from-slate-700 to-slate-900 text-white">
-      <div className="container mx-auto px-32 text-center">
-        {/* Experiência e Projetos */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-20">
+    <section className="skills w-full py-8 md:py-16 gradient-bg bg-gradient-to-bl via-gray-800 from-slate-700 to-slate-900 text-white">
+    <div className="container mx-auto px-5 sm:px-10 md:px-20 text-center">
+      {/* Experiência e Projetos */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-8 md:mb-20">
           <div className="flex flex-col items-center justify-center space-y-2 transform transition-all hover:scale-105">
             <span className="text-6xl font-extrabold text-emerald-400">
               +01
@@ -45,11 +45,11 @@ function Skills() {
         {/* Lista de Skills */}
         {/* <h2 className="text-3xl mb-10">Conhecimento</h2> */}
         <div>
-          <h2 className="tracking-wider text-3xl font-light text-gray-200 my-14">
-            <span className="text-3xl mr-2">➤</span>
-            Meus Conhecimentos:
-          </h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+        <h2 className="tracking-wider text-xl sm:text-2xl md:text-3xl font-light text-gray-200 my-6 md:my-14">
+      <span className="text-xl sm:text-2xl md:text-3xl mr-2">➤</span>
+      Meus Conhecimentos:
+    </h2>
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
             <div className="flex flex-col items-center justify-center space-y-2 hover:bg-slate-600 p-2 rounded-lg transition-colors shadow-md">
               <img src="../img/html.png" alt="HTML5" className="w-12 h-12" />
               <span className="text-base font-light text-gray-100">HTML5</span>
@@ -162,29 +162,26 @@ function Skills() {
             {/* Adicione outras habilidades conforme necessário */}
           </div>
           <TrackVisibility>
-            {({ isVisible }) => (
-              <div className="text-center mt-16">
-                <p className="text-xl text-gray-200">
-                  Quer ver mais do meu trabalho ou conversar sobre projetos?
-                </p>
-                <Link to="#connect">
-                  <button
-                    className={`animate-bounce-slow-mt mt-6 bg-blue-500 text-white font-semibold py-4 px-6 rounded-lg hover:bg-blue-600 ${
-                      isVisible ? "animate-zoomIn" : ""
-                    }`}
-                  >
-                    <span className="">
-                      Fale comigo
-                      <ArrowRightCircle
-                        size={30}
-                        className="inline-block ml-1"
-                      />
-                    </span>
-                  </button>
-                </Link>
-              </div>
-            )}
-          </TrackVisibility>
+      {({ isVisible }) => (
+        <div className="text-center mt-10">
+          <p className="text-base md:text-xl text-gray-200">
+            Quer ver mais do meu trabalho ou conversar sobre projetos?
+          </p>
+          <Link to="#connect">
+            <button
+              className={`animate-bounce-slow-mt mt-4 md:mt-6 bg-blue-500 text-white font-semibold py-2 md:py-4 px-4 md:px-6 rounded-lg hover:bg-blue-600 ${
+                isVisible ? "animate-zoomIn" : ""
+              }`}
+            >
+              <span className="">
+                Fale comigo
+                <ArrowRightCircle size={24} className="inline-block ml-1" />
+              </span>
+            </button>
+          </Link>
+        </div>
+      )}
+    </TrackVisibility>
         </div>
       </div>
     </section>
