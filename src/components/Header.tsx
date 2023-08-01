@@ -36,7 +36,7 @@ const NavBar = () => {
     <nav
       className={`navbar ${
         scrolled ? "scrolled" : ""
-      } bg-slate-900 text-gray-100 shadow-lg py-6 px-4 sm:px-8 lg:px-16 flex justify-between items-center fixed w-full top-0 left-0 z-50`}
+      } bg-slate-900 text-gray-100 shadow-lg py-4 sm:py-6 px-4 sm:px-8 lg:px-16 flex justify-between items-center fixed w-full top-0 left-0 z-50`}
     >
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">

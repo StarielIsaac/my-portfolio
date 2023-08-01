@@ -26,6 +26,11 @@ export default {
         'zoomIn': 'zoomIn 1s',
         'bounce-slow-mt': 'bounce-slow-mt 3s infinite',
       },
+      colors: {
+        'slate-custom': '#151929',
+        'slate-custom-fr': '#1B204A',
+        'slate-custom-fu': '#14151a',
+      },
     },
   },
 }
