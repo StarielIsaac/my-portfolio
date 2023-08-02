@@ -90,7 +90,7 @@ function Projects() {
               <div className="w-full my-10">
                 <SliderComponent images={project.icons} />
               </div>
-              <div className="flex justify-center items-center">
+              <div className="flex justify-center items-center ">
                 <a
                   href={project.githubLink}
                   className="animate-bounce-slow-mt inline-block mb-6 px-8 py-4 text-lg font-extrabold text-white bg-blue-500 rounded-lg hover:bg-blue-600"
@@ -98,7 +98,7 @@ function Projects() {
                   Dê uma olhada
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="w-5 h-5 ml-2 inline-block"
+                    className="w-5 h-5 ml-2 inline-block "
                     viewBox="0 0 24 24"
                     fill="currentColor"
                   >
