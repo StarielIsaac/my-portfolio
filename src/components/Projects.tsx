@@ -1,4 +1,3 @@
-import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -53,9 +52,9 @@ function Projects() {
   };
 
   return (
-    <section className="py-8 gradient-bg bg-gradient-to-t via-gray-800 from-gray-900 to-gray-800">
+    <section className="py-8 gradient-bg bg-gradient-to-l via-gray-800 from-gray-700 to-slate-custom">
       <div className="container mx-auto px-8 my-8 bg">
-        <h2 className="text-6xl font-bold text-gray-200 text-center">
+        <h2 className="text-6xl font-bold text-gray-200 text-center mb-4">
           Portfolio
         </h2>
         <p className="text-xl text-gray-200 text-center">

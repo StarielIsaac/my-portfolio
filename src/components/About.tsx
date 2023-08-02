@@ -13,14 +13,14 @@ function About() {
   };
 
   return (
-    <section className="about w-full py-20 text-slate-200 bg-slate-500 flex flex-col md:flex-row justify-center items-center">
+    <section className="about w-full py-20 text-slate-100 bg-slate-500 flex flex-col md:flex-row justify-center items-center">
       <div className="container mx-auto px-10 flex flex-col md:flex-row md:space-x-8 items-center">
         {/* Foto */}
         <TrackVisibility>
           {({ isVisible }) => (
             <div className="animate-bounce-slow-mt w-full md:w-3/4 mb-8 md:mb-0">
               <img
-                className={`w-full h-auto rounded-full shadow-lg border-4 border-gray-700 ${
+                className={`w-full h-auto rounded-full shadow-2xl border-4 border-gray-700 ${
                   isVisible ? "animate-zoomIn" : ""
                 }`}
                 src="../img/my.jpeg"

@@ -50,7 +50,7 @@ const Banner = () => {
 
   return (
     <section
-      className="banner w-full min-h-screen max-h-screen flex items-center gradient-bg bg-gradient-to-b via-gray-800 from-slate-700 to-slate-900"
+      className="banner w-full min-h-screen max-h-screen flex items-center gradient-bg bg-gradient-to-tl via-gray-800 from-gray-700 to-slate-custom"
       style={{ maxHeight: "100vh" }}
     >
       <div className="container mx-auto px-5 py-10 mt-20 md:py-20">
@@ -97,7 +97,7 @@ const Banner = () => {
                   }`}
                 >
                   <img
-                    className=" my-img w-full md:w-64 lg:w-72 xl:w-96 m-auto rounded-lg shadow-lg animate-bounce-slow"
+                    className=" my-img w-full md:w-64 lg:w-72 xl:w-96 m-auto rounded-lg shadow-2xl animate-bounce-slow"
                     src={typecode}
                     alt="Header Img"
                   />

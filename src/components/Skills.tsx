@@ -45,10 +45,10 @@ function Skills() {
         {/* Lista de Skills */}
         {/* <h2 className="text-3xl mb-10">Conhecimento</h2> */}
         <div>
-        <h2 className="tracking-wider text-xl sm:text-2xl md:text-3xl font-light text-gray-200 my-6 md:my-14">
-      <span className="text-xl sm:text-2xl md:text-3xl mr-2">➤</span>
-      Meus Conhecimentos:
-    </h2>
+        <h2 className="tracking-wider text-xl sm:text-2xl md:text-3xl font-light text-gray-200 my-8 md:my-14">
+  <span className="text-xl sm:text-2xl md:text-3xl mr-2 mt-4 sm:mt-0">➤</span>
+  Meus Conhecimentos:
+</h2>
     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
             <div className="flex flex-col items-center justify-center space-y-2 hover:bg-slate-600 p-2 rounded-lg transition-colors shadow-md">
               <img src="../img/html.png" alt="HTML5" className="w-12 h-12" />
