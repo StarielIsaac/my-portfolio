@@ -17,12 +17,8 @@ const Footer = () => {
               <FiGithub className="animate-bounce-slow-mt text-white w-6 h-6" />
             </a>
             <a href="https://www.instagram.com/starielisaac/?igshid=ZDdkNTZiNTM%3D" target="_blank" rel="noopener noreferrer">
-              <FiInstagram className="animate-bounce-slow-mt-slow-mt text-white w-6 h-6" />
+              <FiInstagram className="animate-bounce-slow-mt text-white w-6 h-6" />
             </a>
-            {/* <a href="#about" className="text-gray-300 hover:text-white">Sobre</a>
-            <a href="#portfolio" className="text-gray-300 hover:text-white">Portfólio</a>
-            <a href="#contact" className="text-gray-300 hover:text-white">Contato</a> */}
-            {/* Adicione outros links relevantes aqui */}
           </div>
         </div>
         <div className="mt-4 text-center md:text-right">
