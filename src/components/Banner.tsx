@@ -50,6 +50,7 @@ const Banner = () => {
 
   return (
     <section
+      id="home"
       className="banner w-full min-h-screen max-h-screen flex items-center gradient-bg bg-gradient-to-tl via-gray-800 from-gray-700 to-slate-custom"
       style={{ maxHeight: "100vh" }}
     >
@@ -63,11 +64,11 @@ const Banner = () => {
                     isVisible ? "animate__fadeIn" : ""
                   }`}
                 >
-                  <span className="text-base sm:text-lg md:text-xl text-gray-400 block text-center">
-                    Bem-vindo ao meu Portfólio
+                  <span className="text-base sm:text-lg md:text-xl text-gray-400 block ">
+                    Bem-vindo ao meu Portfólio!
                   </span>
-                  <h1 className="text-3xl md:text-base lg:text-2xl xl:text-5xl font-bold text-slate-100 text-center mb-4 md:mb-6 mt-1 md:mt-2">{`Me chamo Stariel, sou ${text}`}</h1>
-                  <p className="text-slate-100 text-base sm:text-sm md:text-2xl xl:text-lg tracking-wide text-center mb-4">
+                  <h1 className="text-3xl md:text-base lg:text-2xl xl:text-5xl font-bold text-slate-100  mb-4 md:mb-6 mt-1 md:mt-2">{`Me chamo Stariel, sou ${text}`}</h1>
+                  <p className="text-slate-100 text-base sm:text-sm md:text-2xl xl:text-lg tracking-wide  mb-4">
                     Sou desenvolvedor Full Stack e tenho paixão por tornar
                     ideias em realidade. Estou aqui para ajudá-lo a criar a
                     experiência perfeita para o seu projeto.

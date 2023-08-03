@@ -57,7 +57,7 @@ function Projects() {
         <h2 className="text-6xl font-bold text-gray-200 text-center mb-4">
           Portfolio
         </h2>
-        <p className="text-xl text-gray-200 text-center">
+        <p id="projects" className="text-xl text-gray-200 text-center">
           Confira alguns dos meus últimos projetos.
         </p>
 

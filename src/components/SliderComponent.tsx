@@ -1,10 +1,13 @@
-import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import TrackVisibility from "react-on-screen";
 
-const ProjectSlider = ({ images }) => {
+interface ProjectSliderProps {
+  images: string[];
+}
+
+const ProjectSlider = ({ images }: ProjectSliderProps) => {
   const settings = {
     dots: true,
     infinite: false,
@@ -29,7 +32,7 @@ const ProjectSlider = ({ images }) => {
     <TrackVisibility>
       {({ isVisible }) => (
         <Slider {...settings}>
-          {images.map((image, index) => (
+          {images.map((image: string, index: number) => (
             <div
               key={index}
               className={`image-container ${isVisible ? "animate-zoomIn" : ""}`}

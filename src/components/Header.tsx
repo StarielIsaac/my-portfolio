@@ -1,69 +1,32 @@
-import { useState, useEffect, SetStateAction } from "react";
-// import { HashLink } from 'react-router-hash-link';
-import { Link } from "react-router-dom";
+import { useState } from "react";
 import { FiLinkedin, FiGithub, FiInstagram } from "react-icons/fi";
 import brSvg from "../../img/br.svg";
 
 const NavBar = () => {
-  const [activeLink, setActiveLink] = useState("home");
-  const [scrolled, setScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
-  useEffect(() => {
-    const onScroll = () => {
-      if (window.scrollY > 50) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    };
-
-    window.addEventListener("scroll", onScroll);
-
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
-
-  const onUpdateActiveLink = (value: SetStateAction<string>) => {
-    setActiveLink(value);
-    setIsMobileMenuOpen(false);
-  };
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen((prevState) => !prevState);
   };
 
   return (
-    <nav
-      className={`navbar ${
-        scrolled ? "scrolled" : ""
-      } bg-slate-900 text-gray-100 shadow-lg py-4 sm:py-6 px-4 sm:px-8 lg:px-16 flex justify-between items-center fixed w-full top-0 left-0 z-50`}
-    >
+    <nav className="navbar bg-slate-900 text-gray-100 shadow-lg py-4 sm:py-6 px-4 sm:px-8 lg:px-16 flex justify-between items-center fixed w-full top-0 left-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
-          <Link
-            to="#home"
+          <a
+            href="#home"
             className="navbar-brand text-2xl sm:text-4xl font-semibold text-yellow-50"
           >
             Stariel .F
-          </Link>
+          </a>
           <ul className="navbar-nav hidden sm:flex items-center space-x-4 md:space-x-8 ml-4 md:ml-8">
-            <li
-              className={`nav-item text-white ${
-                activeLink === "home" ? "active" : ""
-              }`}
-            >
-              <Link
-                to="#home"
-                className="nav-link"
-                onClick={() => onUpdateActiveLink("home")}
-              >
-                PT/BR{" "}
-                <img
-                  className="w-6 inline-block ml-1"
-                  src={brSvg}
-                  alt="Header Img"
-                />
-              </Link>
+            <li className="nav-item text-white">
+              PT/BR{" "}
+              <img
+                className="w-6 inline-block ml-1"
+                src={brSvg}
+                alt="Header Img"
+              />
             </li>
           </ul>
         </div>
@@ -100,38 +63,20 @@ const NavBar = () => {
           }`}
         >
           <ul className="navbar-nav flex flex-col items-center space-y-4">
-            <li className={`nav-item ${activeLink === "home" ? "active" : ""}`}>
-              <Link
-                to="#home"
-                className="nav-link"
-                onClick={() => onUpdateActiveLink("home")}
-              >
+            <li className="nav-item">
+              <a href="#home" className="nav-link">
                 Início
-              </Link>
+              </a>
             </li>
-            <li
-              className={`nav-item ${activeLink === "skills" ? "active" : ""}`}
-            >
-              <Link
-                to="#skills"
-                className="nav-link"
-                onClick={() => onUpdateActiveLink("skills")}
-              >
+            <li className="nav-item">
+              <a href="#skills" className="nav-link">
                 Habilidades
-              </Link>
+              </a>
             </li>
-            <li
-              className={`nav-item ${
-                activeLink === "projects" ? "active" : ""
-              }`}
-            >
-              <Link
-                to="#projects"
-                className="nav-link"
-                onClick={() => onUpdateActiveLink("projects")}
-              >
+            <li className="nav-item">
+              <a href="#projects" className="nav-link">
                 Projetos
-              </Link>
+              </a>
             </li>
           </ul>
           <div className="social-icon flex items-center space-x-4 justify-center my-4">
@@ -162,38 +107,20 @@ const NavBar = () => {
         {/* Desktop Menu */}
         <div className={`hidden lg:flex items-center space-x-8`}>
           <ul className="navbar-nav flex items-center space-x-8">
-            <li className={`nav-item ${activeLink === "home" ? "active" : ""}`}>
-              <Link
-                to="#home"
-                className="nav-link"
-                onClick={() => onUpdateActiveLink("home")}
-              >
+            <li className="nav-item">
+              <a href="#home" className="nav-link">
                 Início
-              </Link>
+              </a>
             </li>
-            <li
-              className={`nav-item ${activeLink === "skills" ? "active" : ""}`}
-            >
-              <Link
-                to="#skills"
-                className="nav-link"
-                onClick={() => onUpdateActiveLink("skills")}
-              >
+            <li className="nav-item">
+              <a href="#skills" className="nav-link">
                 Habilidades
-              </Link>
+              </a>
             </li>
-            <li
-              className={`nav-item ${
-                activeLink === "projects" ? "active" : ""
-              }`}
-            >
-              <Link
-                to="#projects"
-                className="nav-link"
-                onClick={() => onUpdateActiveLink("projects")}
-              >
+            <li className="nav-item">
+              <a href="#projects" className="nav-link">
                 Projetos
-              </Link>
+              </a>
             </li>
           </ul>
           <div className="social-icon flex items-center space-x-4">

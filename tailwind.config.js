@@ -30,6 +30,7 @@ export default {
         'slate-custom': '#151929',
         'slate-custom-fr': '#1B204A',
         'slate-custom-fu': '#14151a',
+        'slate-blue-fu': '#00E7F9'
       },
     },
   },

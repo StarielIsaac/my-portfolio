@@ -8,35 +8,35 @@ function Skills() {
     <div className="container mx-auto px-5 sm:px-10 md:px-20 text-center">
       {/* Experiência e Projetos */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-8 md:mb-20">
-          <div className="flex flex-col items-center justify-center space-y-2 transform transition-all hover:scale-105">
-            <span className="text-6xl font-extrabold text-emerald-400">
+          <div className="flex flex-col items-center space-y-2 transform transition-all hover:scale-105">
+            <span className="text-7xl font-extrabold text-slate-blue-fu ">
               +01
             </span>
             <p className="text-xl font-light text-gray-100">
               Ano de Experiência como Desenvolvedor
             </p>
           </div>
-          <div className="flex flex-col items-center justify-center space-y-2 transform transition-all hover:scale-105">
-            <span className="text-6xl font-extrabold text-emerald-400">
+          <div className="flex flex-col items-center space-y-2 transform transition-all hover:scale-105">
+            <span className="text-7xl font-extrabold text-slate-blue-fu">
               +08
             </span>
             <p className="text-xl font-light text-gray-100">
               Projetos Pessoais e Educativos Concluídos
             </p>
           </div>
-          <div className="flex flex-col items-center justify-center space-y-2 transform transition-all hover:scale-105">
-            <span className="text-6xl font-extrabold text-emerald-400">
+          <div className="flex flex-col items-center space-y-2 transform transition-all hover:scale-105">
+            <span className="text-7xl font-extrabold text-slate-blue-fu">
               +01
             </span>
             <p className="text-xl font-light text-gray-100">
               Projeto Freelancer Entregue
             </p>
           </div>
-          <div className="flex flex-col items-center justify-center space-y-2 transform transition-all hover:scale-105">
-            <span className="text-6xl font-extrabold text-emerald-400">
+          <div className="flex flex-col items-center space-y-2 transform transition-all hover:scale-105">
+            <span className="text-7xl font-extrabold text-slate-blue-fu">
               +02
             </span>
-            <p className="text-xl font-light text-gray-100">
+            <p className="text-xl font-light text-gray-100"  id="skills">
               Cursos Front-end Concluídos
             </p>
           </div>
@@ -46,7 +46,7 @@ function Skills() {
         {/* <h2 className="text-3xl mb-10">Conhecimento</h2> */}
         <div>
         <h2 className="tracking-wider text-xl sm:text-2xl md:text-3xl font-light text-gray-200 my-8 md:my-14">
-  <span className="text-xl sm:text-2xl md:text-3xl mr-2 mt-4 sm:mt-0">➤</span>
+  <span className="text-xl sm:text-2xl md:text-3xl mr-2 mt-4 sm:mt-0" >➤</span>
   Meus Conhecimentos:
 </h2>
     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
