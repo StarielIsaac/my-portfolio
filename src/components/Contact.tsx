@@ -30,7 +30,7 @@ const Contact = () => {
     e.preventDefault();
     setButtonText("Enviando...");
     try {
-      const response = await fetch("http://localhost:5173/contact", {
+      const response = await fetch("http://localhost:5174", {
         method: "POST",
         headers: {
           "Content-Type": "application/json;charset=utf-8",

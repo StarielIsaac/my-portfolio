@@ -15,7 +15,7 @@ const NavBar = () => {
         <div className="flex items-center">
           <a
             href="#home"
-            className="navbar-brand text-2xl sm:text-4xl font-semibold text-yellow-50"
+            className="navbar-brand text-2xl sm:text-4xl font-semibold text-yellow-50 hover:scale-105 transition-transform"
           >
             Stariel .F
           </a>
@@ -107,17 +107,17 @@ const NavBar = () => {
         {/* Desktop Menu */}
         <div className={`hidden lg:flex items-center space-x-8`}>
           <ul className="navbar-nav flex items-center space-x-8">
-            <li className="nav-item">
-              <a href="#home" className="nav-link">
+            <li className="nav-item hover:scale-110 transition-transform">
+              <a href="#home" className="nav-link ">
                 Início
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item hover:scale-110 transition-transform">
               <a href="#skills" className="nav-link">
                 Habilidades
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item hover:scale-110 transition-transform">
               <a href="#projects" className="nav-link">
                 Projetos
               </a>
