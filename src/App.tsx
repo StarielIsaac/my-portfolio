@@ -19,7 +19,6 @@ function App() {
       < About />
 
       < Skills />
-      {/* < Main /> */}
       < Projects />
 
       < Contact />

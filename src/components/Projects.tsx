@@ -3,31 +3,68 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import SliderComponent from "./SliderComponent";
 
-import com3 from "../../img/blogs.png";
-import com4 from "../../img/starwars.png";
-import com2 from "../../img/computer.jpg";
-import com1 from "../../img/computer1.jpg";
+import trivia from "../../img/trivia.png";
+import back from "../../img/back.jpg";
+import recipe from "../../img/recipe.png";
+import wars from "../../img/starwars.png";
+import clean from "../../img/clean.png";
+
 
 const tunes = [
   {
-    name: "StarWars",
+    name: "Jogo de Trivia",
     type: "Front-end",
     message: "Algumas das Tecnologias que usei:",
     techStack:
-      "React JS, Styled Components, Redux, API Request, RTL(React Testing Library), Material UI, Figma e outros...",
-    githubLink: "https://github.com/seu-usuario/projeto1",
-    icons: [com1, com2], // Certifique-se de que os nomes das imagens estejam corretos aqui
+      "React JS, Redux, RTL(React Testing Library), Material UI, StyleLint, ESLint Figma, Trello e Kanban..",
+    githubLink: "https://github.com/StarielIsaac/project14-trivia-react-redux",
+    icons: [trivia] // Certifique-se de que os nomes das imagens estejam corretos aqui
   },
   {
-    name: "Jogo de trivia",
+    name: "Recipes App",
     type: "Front-end",
     message: "Algumas das Tecnologias que usei:",
     techStack:
-      "React JS, Styled Components, Redux, API Request, RTL(React Testing Library), Material UI, Figma e outros...",
-    githubLink: "https://github.com/seu-usuario/projeto1",
-    icons: [com3, com4], // Certifique-se de que os nomes das imagens estejam corretos aqui
+      "React JS, JavaScript, Css, Context API, Redux, RLT (React Testing Library)",
+    githubLink: "https://github.com/StarielIsaac/project16-recipes-app",
+    icons: [recipe], // Certifique-se de que os nomes das imagens estejam corretos aqui
   },
-  // Adicione mais projetos à lista conforme necessário
+  {
+    name: "Trybe Smith",
+    type: "Back-end",
+    message: "Algumas das Tecnologias que usei:",
+    techStack:
+      "Typescript, Node, Express, JWT, MySQL, Docker, Docker Compose, Nodemon e outros...",
+    githubLink: "https://github.com/StarielIsaac/project23-trybesmith",
+    icons: [back], // Certifique-se de que os nomes das imagens estejam corretos aqui
+  }, 
+  {
+    name: "Motta Clean",
+    type: "Front-end",
+    message: "Algumas das Tecnologias que usei:",
+    techStack:
+      "React, JavaScript, Vite, Tailwind Css, Vercel e outros...",
+    githubLink: "https://github.com/StarielIsaac/ecommerce-upholstery-cleaning",
+    icons: [clean], // Certifique-se de que os nomes das imagens estejam corretos aqui
+  },
+  {
+    name: "Trybe Futebol Clube (TFC)",
+    type: "FullStack",
+    message: "Algumas das Tecnologias que usei:",
+    techStack:
+    "Typescript, Node, Express, Sequelize, JWT, MySQL, Docker, Docker Compose, Joi, express-async-errors e outros...",
+    githubLink: "https://github.com/StarielIsaac/project25-trybe-futebol-clube",
+    icons: [back], // Certifique-se de que os nomes das imagens estejam corretos aqui
+  },
+  {
+    name: "StarWars Planets",
+    type: "Front-end",
+    message: "Algumas das Tecnologias que usei:",
+    techStack:
+      "React js, Context API, Hooks, useEffect, CSS3 e outros...",
+    githubLink: "https://github.com/StarielIsaac/project15-starwars-planets-search",
+    icons: [wars], // Certifique-se de que os nomes das imagens estejam corretos aqui
+  },
 ];
 
 function Projects() {
@@ -93,6 +130,7 @@ function Projects() {
               <div className="flex justify-center items-center ">
                 <a
                   href={project.githubLink}
+                  target="_blank"
                   className="animate-bounce-slow-mt inline-block mb-6 px-8 py-4 text-lg font-extrabold text-white bg-blue-500 rounded-lg hover:bg-blue-600"
                 >
                   Dê uma olhada

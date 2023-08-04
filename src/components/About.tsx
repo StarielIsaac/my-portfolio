@@ -1,3 +1,4 @@
+import myImg from '../../img/my.jpeg'
 import { useState } from "react";
 import { FiCopy, FiDownload } from "react-icons/fi";
 import TrackVisibility from "react-on-screen";
@@ -23,7 +24,7 @@ function About() {
                 className={`w-full h-auto rounded-full shadow-2xl border-4 border-gray-700 ${
                   isVisible ? "animate-zoomIn" : ""
                 }`}
-                src="../img/my.jpeg"
+                src={myImg}
                 alt="Minha Foto"
               />
             </div>
