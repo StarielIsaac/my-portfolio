@@ -1,4 +1,4 @@
-import myImg from '../../img/my.jpeg'
+import myImg from "../../img/my.jpeg";
 import { useState } from "react";
 import { FiCopy, FiDownload } from "react-icons/fi";
 import TrackVisibility from "react-on-screen";
@@ -7,7 +7,7 @@ function About() {
   const [emailCopied, setEmailCopied] = useState(false);
 
   const copyEmailToClipboard = () => {
-    const email = "seu-email@example.com";
+    const email = "seu-email@gmail.com";
     navigator.clipboard.writeText(email);
     setEmailCopied(true);
     setTimeout(() => setEmailCopied(false), 2000);
